@@ -1,0 +1,115 @@
+.hall{
+    text-align: center;
+    position: relative;
+    margin-top:10%;
+    .wall{
+        height:250px;
+        width:600px;
+        margin:auto;
+        position: relative;
+      
+        border:2px solid #8a2be2;
+        &:hover{
+            cursor: pointer;
+            border:2px solid red;
+        }
+
+        .drapes{
+            z-index: 2;
+            position: absolute;
+            right:0;
+            height: 150px;
+            width: 200px;
+            bottom: 30px;
+            right: 20px;
+            border:2px solid burlywood;
+           
+            &:hover{
+                cursor: pointer;
+                border:2px solid red;
+            }
+    
+        }
+
+    }
+    .floor{
+        height:250px;
+        width:600px;
+        margin:auto;
+        border:2px solid olivedrab;
+        
+        
+        &:hover{
+            cursor: pointer;
+            border:2px solid red;
+        }
+    }
+ 
+    .couch{
+        position: absolute;
+        height:100px;
+        width:150px;
+        border: 2px solid blanchedalmond;   
+          
+        left: 25%;
+        bottom: 40%;
+        &:hover{
+            cursor: pointer;
+            border:2px solid red;
+        }
+
+    }
+
+}
+
+.themePicker{
+ height: calc(100vh - 250px);
+ padding-left: 10%;
+ margin-top:10%;
+
+border-left:1px solid green;
+p{
+    font-size: 18px;
+}
+  
+}
+
+.dark-blue-gray{
+    background-color: #726DA8
+}
+
+.eggplant{
+    background-color: #594157
+}
+
+.key-line{
+    background-color: #ECFEAA
+}
+
+.space-cadet{
+    background-color: #2F3061
+}
+
+.gainsboro{
+    background-color: #DFDFDF
+}
+
+.rocket-metallic{
+    background-color: #847577
+}
+
+.msu-green {
+    background-color: #243E36
+}
+
+.russian-green{
+    background-color: #6A8D73
+}
+
+.sandy-brown{
+    background-color: #F0A868
+}
+
+.forest-green {
+    background-color: #293F14
+}
